@@ -1,0 +1,125 @@
+body {
+  background: url(../img/backg.jpg);
+}
+.box {
+  width: 1000px;
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: rgba(240, 255, 255, 0.05);
+}
+table {
+  border-spacing: 0;
+}
+.firstline {
+  margin-top: 0;
+}
+
+.sidebarlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: auto;
+}
+.sidebarimg {
+  border: 0;
+  height: auto;
+  width: auto;
+}
+.me {
+  height: 300px;
+  width: 250px;
+}
+.somecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: rgb(227, 227, 227);
+  text-shadow: 1px 1px 2px black;
+  height: 295px;
+  width: 740px;
+  background: linear-gradient(rgba(28, 28, 28, 0.5), rgba(1, 1, 1, 0.5)),
+    url(../img/prog.jpg);
+}
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 740px;
+  overflow: hidden;
+  object-fit: cover;
+  font-size: 20px;
+  color: rgb(227, 227, 227);
+  text-shadow: 1px 1px 2px black;
+}
+img {
+  object-fit: cover;
+}
+footer {
+  color: #fff;
+}
+.textcontent {
+  margin: 1px;
+}
+.undertable {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebarlink p {
+  font-size: 40px;
+  color: #225e7d;
+  text-shadow: 1px 1px 2px #216281;
+}
+.sidebarlink a {
+  padding: 10px;
+  text-decoration: none;
+  color: #6b6b6b;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgb(13, 45, 72);
+}
+.sidebarlink a:hover {
+  background-color: rgba(240, 255, 255, 0.05);
+}
+.sociallinks,
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #225e7d;
+  text-shadow: 1px 1px 2px #216281;
+  width: 250px;
+  height: 150px;
+  margin: 0;
+}
+.sociallinksbuttons {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sometextaboutlinks {
+  margin-top: 25px;
+  font-size: 20px;
+  color: rgb(227, 227, 227);
+  text-shadow: 1px 1px 2px black;
+  width: 700px;
+  height: auto;
+}
+.about p {
+  margin: 5px;
+}
+.list1,
+.list2 {
+  margin-top: 45px;
+  font-size: 20px;
+  color: rgb(227, 227, 227);
+  text-shadow: 1px 1px 2px black;
+  width: auto;
+  height: auto;
+}
